@@ -1,0 +1,24 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Local env / secrets ----
+.env
+.env.*
+
+# ---- Data (never version) ----
+data/**
+!data/README.md
+!data/**/README.md
+
+# ---- Large build artifacts ----
+*.jsonl
+*.faiss
+*.npy
+*.npz
+
+# ---- Logs / temp ----
+*.log
+.DS_Store
+Thumbs.db

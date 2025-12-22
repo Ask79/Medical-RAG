@@ -1,0 +1,13 @@
+numpy
+pandas
+tqdm
+regex
+python-dotenv
+pydantic
+rapidfuzz
+
+faiss-cpu
+sentence-transformers
+
+fastapi
+uvicorn

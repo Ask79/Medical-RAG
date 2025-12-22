@@ -67,3 +67,11 @@ This repository represents a completed prototype emphasizing:
 - deterministic summarization with citations
 
 It is intended as a systems and integration project rather than a production-ready service.
+
+## Quickstart (Sanity Check)
+After configuring environment variables and preparing local data, the pipeline can be
+exercised with a single query via the module entrypoint:
+
+```bash
+python -m rag_med.pipeline_router "Is metformin contraindicated at eGFR 25?"
+
